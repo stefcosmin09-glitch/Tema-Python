@@ -1,0 +1,31 @@
+----["ls" , "/root"]----
+Comanda a eșuat!
+Cod de eroare: 2
+Mesaj eroare: ls: cannot open directory '/root': Permission denied asta mi a artat la ls /root
+
+----["ls" , "/tmp"]----
+pyright-4152-QtavFdnFmKzx
+python-languageserver-cancellation
+snap-private-tmp
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-colord.service-ERs53E
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-ModemManager.service-VN3KrR
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-polkit.service-ccuesl
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-power-profiles-daemon.service-U1FVs9
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-switcheroo-control.service-EzixRr
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-systemd-logind.service-T48u8V
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-systemd-oomd.service-Cz0FSM
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-systemd-resolved.service-QIHNuu
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-systemd-timesyncd.service-u0JjD0
+systemd-private-e51d25cf280647d098ff82bfaa3cb95e-upower.service-OxtjN9 la a 2 a
+
+----["cat" ,"fisier_inexistent.txt"]----
+Comanda a eșuat!
+Cod de eroare: 1
+Mesaj eroare: cat: fisier_inexistent.txt: No such file or directory
+
+----["ping", "-c", "1", "999.999.999.999"]----
+Comanda a eșuat!
+Cod de eroare: 2
+Mesaj eroare: ping: 999.999.999.999: Name or service not known
+
+
