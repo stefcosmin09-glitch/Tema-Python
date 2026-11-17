@@ -1,0 +1,16 @@
+# Virtual environments — never commit (1200+ files, platform specific)
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local config / secrets
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
